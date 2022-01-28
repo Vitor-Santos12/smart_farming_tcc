@@ -22,6 +22,23 @@
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 */
 
+// Desenvolvendo o perfil do ESP 32 através da variáveis
+// Canais PWM
+
+// Numeros de pinos PWM
+int PinPWM = 27
+//  Valores do Indices { 1,2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,19,21,22,23,24,26} 
+int CanalPWM[PinPWM] = { 5,8,10,11,12,13,14,15,16,17,18,20,21,22,24,25,27,35,38,42,40,41,36}
+
+// Pinos ADC -> Conversor analógico-digital 
+int PinADC1
+//    Valores do Indices { GPIO36,2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,19,21,22,23,24,26} 
+int CanalADC1[PinADC1] = { 5     ,8,10,11,12,13,14,15,16,17,18,20,21,22,24,25,27,35,38,42,40,41,36}
+
+
+int PinInput[input] = 
+
+
 // the setup function runs once when you press reset or power the board
 
 int LED_BUILTIN =2;
