@@ -75,7 +75,7 @@ void loop() {
   Serial.println("--------------------");
   for(int x = 1; x<=3; x++){
   ValorAnalogico[x] = analogRead(CanalADC2[x]);
-  Serial.print("Valor "+String(x)+":");
+  Serial.print("Valor Analogico"+String(x)+":");
   Serial.print(ValorAnalogico[x]);
   Serial.print("\t");
   tensao[x] = (ValorAnalogico[x]/4096)*5;
