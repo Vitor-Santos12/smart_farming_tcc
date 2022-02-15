@@ -4,9 +4,9 @@ void EntradasDigitais();
 // Função para entradas analógicas
 void EntradasAnalogicas(){
   // Insere os GPIO4, GPIO15 e GPIO13 com entradas Analógicas
-  Serial.println("\n--------------------");
-  Serial.println("Entradas Analógicas!");
-  Serial.println("--------------------");
+//  Serial.println("\n--------------------");
+//  Serial.println("Entradas Analógicas!");
+//  Serial.println("--------------------");
   MsgValores = String("\n***Esp 32-1 Comunica que***\n");
   
   for(int x = 1; x<=3; x++){
@@ -22,15 +22,15 @@ void EntradasAnalogicas(){
 //  Serial.println("\t");
   MsgValores = MsgValores + String("Tensão"+String(x)+":"+String(tensao[x])+"V\n");
   }
-  Serial.print(MsgValores);
+  //Serial.print(MsgValores);
 }
 
 // Função para entradas digitais
 void EntradasDigitais(){
   // Insere os GPIO32, GPIO33, GPIO34, GPIO35 com entradas digitais 
-  Serial.println("\n------------------");
-  Serial.println("Entradas digitais!");
-  Serial.println("------------------");
+//Serial.println("\n------------------");
+//Serial.println("Entradas digitais!");
+//Serial.println("------------------");
   for(int y = 1; y<=3; y++){
   ValorDigital[y] = digitalRead(CanalADC1[y]);
 //  Serial.print("Valor Digital "+String(y)+":");
@@ -38,5 +38,5 @@ void EntradasDigitais(){
 //  Serial.println("\t");
   MsgValores = MsgValores + String("\nValor Digital"+String(y)+":"+String(ValorDigital[y])+"\n");
   }
-  Serial.print(MsgValores);
+  //Serial.print(MsgValores);
 }
