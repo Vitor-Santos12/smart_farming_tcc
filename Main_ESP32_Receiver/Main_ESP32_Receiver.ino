@@ -5,8 +5,8 @@
 #include <Arduino_JSON.h>
 
 // Credencial da Rede Local 
-const char* ssid = "Vitor Oi Fibra 2G";
-const char* password = "32010750";
+const char* ssid = "REPLACE_WITH_YOUR_SSID";
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
 // Estrutura de recebimento de dados
 // Deve combinar com a estrutura de envio.

@@ -9,8 +9,11 @@
  
 /* Constantes - conexão wi-fi e webserver */
 const char* host = "esp32-2-Arquivo";
-const char* ssid = "Vitor Oi Fibra 2G"; /* coloque aqui o nome da rede wi-fi que o ESP32 deve se conectar */
-const char* password = "32010750"; /* coloque aqui a senha da rede wi-fi que o ESP32 deve se conectar */
+
+// Credencial da Rede Local 
+const char* ssid = "REPLACE_WITH_YOUR_SSID"; /* coloque aqui o nome da rede wi-fi que o ESP32 deve se conectar */
+const char* password = "REPLACE_WITH_YOUR_PASSWORD"; /* coloque aqui a senha da rede wi-fi que o ESP32 deve se conectar */
+
 const int port     = 5555; 
  
 /* Variáveis globais */

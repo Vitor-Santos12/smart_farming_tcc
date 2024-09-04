@@ -14,8 +14,9 @@
 #define MESH_PASSWORD "201209523"   // Senha da rede Mesh
 #define MESH_PORT 5555
 /*----Configuração do Web Server--------------------------------------------*/
-const char* ssid = "Vitor Oi Fibra 2G";
-const char* password = "32010750";
+// Credencial da Rede Local 
+const char* ssid = "REPLACE_WITH_YOUR_SSID";
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 /*----Set do Websever na porta 80-------------------------------------------*/
 JSONVar board;
 AsyncWebServer server(80);
